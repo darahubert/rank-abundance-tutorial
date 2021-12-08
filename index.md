@@ -118,11 +118,12 @@ The dataset contains data for two years, 1981 and 2021. We want make a plot for 
 trees_tidy <- select(trees_messy, -date, -phylum) %>%  # delete unwanted column showing date and phylum. 
   na.omit()  # delete all n/a values
 
-	# we have used a pipe %>% to pass the function on the right into the dataset on the left. It's a handy command and you can find more about it here.
-
 colnames(trees_tidy) <- c("year", "species", "population") # change column names
 head(trees_tidy)  # Check changes have been made
 ```
+We have used a pipe `%>%` to pass the function `na.omit`  through dataset on the left, `trees_messy`. It's a handy command and you can find more about it <a href="https://ourcodingclub.github.io/tutorials/data-manip-efficient/" target="_blank">in this tutorial</a>.
+
+
 Great! Now we want to split our dataset by year. To do this we are going to use the `filter()` command and make a new data frame object `<-` for each year.
 
 ```r  
