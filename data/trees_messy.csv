@@ -1,0 +1,37 @@
+﻿year ,SpEcies ,COUNT,phylum ,date 
+1981,scots pine,2,gymnosperm ,
+1981,Sitka spruce,315,gymnosperm ,
+1981,douglas fir ,30,gymnosperm ,
+1981,lodgepole pine,298,gymnosperm ,
+1981,noble fir ,15,gymnosperm ,
+1981,hybrid larch,1,gymnosperm ,
+1981,ash ,5,angiosperm ,
+1981,lime,2,angiosperm ,
+1981,beech,15,angiosperm ,
+1981,hazel ,25,angiosperm ,
+1981,sweet chesnut ,4,angiosperm ,
+1981,oak ,10,angiosperm ,
+1981,rowan ,15,angiosperm ,
+1981,sycamore,11,angiosperm ,
+1981,silver birch ,16,angiosperm ,
+1981,elm,167,angiosperm ,
+1981,maple ,9,angiosperm ,
+2021,scots pine,20,gymnosperm ,06/06/2021
+2021,Sitka spruce,189,gymnosperm ,06/06/2021
+2021,douglas fir ,92,gymnosperm ,06/06/2021
+2021,lodgepole pine,111,gymnosperm ,06/06/2021
+2021,noble fir ,54,gymnosperm ,06/06/2021
+2021,hybrid larch,3,gymnosperm ,06/06/2021
+2021,ash ,25,angiosperm ,06/06/2021
+2021,lime,,angiosperm ,06/06/2021
+2021,beech,35,angiosperm ,06/06/2021
+2021,hazel ,23,angiosperm ,06/06/2021
+2021,sweet chesnut ,5,angiosperm ,06/06/2021
+2021,oak ,5,angiosperm ,06/06/2021
+2021,rowan ,62,angiosperm ,06/06/2021
+2021,sycamore,11,angiosperm ,06/06/2021
+2021,silver birch ,87,angiosperm ,06/06/2021
+2021,elm,22,angiosperm ,06/06/2021
+2021,maple ,15,angiosperm ,06/06/2021
+,,,,
+,,1699,,
