@@ -206,9 +206,7 @@ p2021 <- ggplot(trees_21, aes(x=rank, y=relative_abundance)) +  # set x and y ax
 p2021  # View the plot.
 ```
 
-![image](https://github.com/EdDataScienceEES/tutorial-darahubert/blob/a1f47a9b332729ba42ebfa8305557e283bf08198/outputs%20/2021%20-%20no%20data%20points.png)
-
-To make the plot clearer, we can add data labels. 
+![image](https://github.com/darahubert/rank-abundance-tutorial/blob/78afb1342f48dc4693b5d99b75b50b53ce837c75/outputs/2021%20-%20no%20data%20points.png)
 
 ```r 
 # Add data labels 
@@ -225,7 +223,7 @@ That's not very clear. We can use the `geom_text_repel` in the `ggrepel` package
 # Including the plot code in () means the plot is automatically shown in the plot window. 
 ```
 
-![image](https://github.com/EdDataScienceEES/tutorial-darahubert/blob/a1f47a9b332729ba42ebfa8305557e283bf08198/outputs%20/2021%20-%20with%20data%20labels.png)
+![image](https://github.com/darahubert/rank-abundance-tutorial/blob/78afb1342f48dc4693b5d99b75b50b53ce837c75/outputs/2021%20-%20with%20data%20labels.png)
 
 ----
 Now we can plot the Rank Abundance Diagram for 1981. 
@@ -246,7 +244,7 @@ Now we can plot the Rank Abundance Diagram for 1981.
 ```
 
 <p align="center" width="100%">
-    <img width="800" alt="Screenshot 2021-12-07 at 16 55 48" src="https://github.com/EdDataScienceEES/tutorial-darahubert/blob/a1f47a9b332729ba42ebfa8305557e283bf08198/outputs%20/1981%20plot.png">
+    <img width="800" alt="Screenshot 2021-12-07 at 16 55 48" src="https://github.com/darahubert/rank-abundance-tutorial/blob/78afb1342f48dc4693b5d99b75b50b53ce837c75/outputs/1981%20plot.png">
 </p>
 
 #### Now we have our two plots `p2021_labels` and `p1981`, we can format them and make a panel. 
@@ -268,7 +266,7 @@ panel <- grid.arrange(p1981_final,p2021_final,ncol=1, top = "Tree Rank Abundance
 ggsave(panel,filename = "Tree Rank Abundance Diagrams.jpg")
 
 ```
-![image](https://github.com/EdDataScienceEES/tutorial-darahubert/blob/a1f47a9b332729ba42ebfa8305557e283bf08198/outputs%20/Tree%20Rank%20Abundance%20Diagrams%20Final.jpg)
+![image](https://github.com/darahubert/rank-abundance-tutorial/blob/78afb1342f48dc4693b5d99b75b50b53ce837c75/outputs/Tree%20Rank%20Abundance%20Diagrams%20Final.jpg)
 
 We have our final output! 
 
