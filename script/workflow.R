@@ -2,10 +2,13 @@
 
 # 1. Research Rank Abundance Diagrams 
 # 2. Make dataset 
+# 3. Write tutorial 
+# 4. Create repo website
+# 5. Create PDF of webiste
 -------
 ## Tutorial design: 
-# 3. Set up: Install libraries, set working directory 
-# 4. Data formatting: explore data, tidy data 
-# 5. Data manipulation: using datasets to create new variables (rank, relative abundance)
-# 5. Data visualisation: plot rank abundance diagrams 
-# 6. Final data visualisation: create panel and save.
+# 1. Intoduction to Rank Abundance Diagrams 
+# 2. Set up: Install libraries, set working directory 
+# 3. Data wrangling: explore data, tidy data, transform data (new variables, rank)
+# 4. Data visualisation: plot rank abundance diagrams 
+# 5. Final data visualisation: create panel and save.
