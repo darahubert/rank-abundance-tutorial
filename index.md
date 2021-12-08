@@ -17,7 +17,7 @@
 ----
 This tutorial is going to take you through the steps to make basic Rank Abundance Diagrams. It is aimed at beginners and whilst some knowledge of dpylr and ggplot2 is helpful, it's not vital. We will run through all the steps to make Rank Abundance Diagrams, from data importation, wrangling and manipulation to visualisation and saving your plots. If you want to understand more about the dpylr functions we are using or make your plots more beautiful, you can check out <a href="https://ourcodingclub.github.io" target="_blank">the Coding Club Tutorials</a>. First, let's download the files you need.  
 
-You can get all of the resources for this tutorial from <a href="https://github.com/EdDataScienceEES/tutorial-darahubert.git" target="_blank">this GitHub repository</a>. Clone and download the repo as a zip file, then unzip it.
+You can download the dataset for this tutorial from the `data` folder <a href="https://github.com/darahubert/rank-abundance-tutorial.git" target="_blank"> in this GitHub repository</a>. Just download the zip file and unzip it. 
 
 
 <a name="rank_abundance"></a> 
