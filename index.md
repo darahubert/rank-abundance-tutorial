@@ -182,10 +182,12 @@ write.csv(trees_81, file = "trees81_final.csv")
 Great! Now we have our data to plot. Let's move on to data visualisation.
 
 <a name="data_vis"></a> 
-## 4. Data Visualisation
 
-<p align="center" width="80%">
-    <img width="500" alt="Screenshot 2021-12-08 at 10 56 06" src="https://user-images.githubusercontent.com/91272463/145196680-a938c27e-6446-46eb-9655-e244c7b32785.png"
+## 4. Data Visualisation
+	 
+<p align="center" width="100%">
+    <img width="999" alt="Screenshot 2021-12-07 at 16 55 48" src="https://user-images.githubusercontent.com/91272463/145196680-a938c27e-6446-46eb-9655-e244c7b32785.png"
+</p>
 
 ----
 We want to show the relative abundance of each species, plotted against the rank of each species for both 1981 and 2021 and connect the data points.
@@ -217,7 +219,8 @@ To make the plot clearer, we can add data labels.
 # Add data labels 
 p2021 + geom_text(aes(label=species), size = 3). # add species labels to data points
 ```
-![image](https://github.com/EdDataScienceEES/tutorial-darahubert/blob/be1c38202ced1efdf20082f22d119327b5f919b8/outputs%20/2021%20-%20bad%20data%20labels.png)
+
+	 ![image](https://github.com/EdDataScienceEES/tutorial-darahubert/blob/be1c38202ced1efdf20082f22d119327b5f919b8/outputs%20/2021%20-%20bad%20data%20labels.png)
 
 That's not very clear. We can use the `geom_text_repel` in the `ggrepel` package to make sure the data labels don't overlap. 
 
@@ -226,6 +229,7 @@ That's not very clear. We can use the `geom_text_repel` in the `ggrepel` package
 
 # Including the plot code in () means the plot is automatically shown in the plot window. 
 ```
+
 ![image](https://github.com/EdDataScienceEES/tutorial-darahubert/blob/a1f47a9b332729ba42ebfa8305557e283bf08198/outputs%20/2021%20-%20with%20data%20labels.png)
 
 ----
