@@ -1,8 +1,9 @@
 # Tutorial to make Rank Abundance Diagrams 
+# Aim: create basic rank abundance diagrams. show how to import data, wrangle data using dpylr, visualise data using gglot2 and ggrepel, make a panel usimg gridExtra.
 # Dara Hubert - darahubert@icloud.com
 # 06/12/21
+# Packages used: dpylr, ggplot2, ggrepel, gridExtra
 
-# Sources and licences: 
 
 ### Setting up ----
 
