@@ -185,6 +185,11 @@ Great! Now we have our data to plot. Let's move on to data visualisation.
 
 ## 4. Data Visualisation
 
+<p align="center" width="100%">
+    <img width="500" alt="Screenshot 2021-12-07 at 16 55 48" src="https://user-images.githubusercontent.com/91272463/145214609-87f4d2c8-60d1-4013-9b0a-d380a8c4ebe8.png">
+</p>
+----
+
 We want to show the relative abundance of each species, plotted against the rank of each species for both 1981 and 2021 and connect the data points.
 We will plot a connected scatterplot using `ggplot2`. This uses commands `geom_point` to plot the data points and `geom_line` to connect them. There is so much more you can do with `ggplot2` so if you want to find out more about data visualisation be sure to have a look at <a href="https://ourcodingclub.github.io/tutorials/data-vis-2/" target="_blank">this data visualisation tutorial</a> 
 
@@ -205,15 +210,17 @@ p2021 <- ggplot(trees_21, aes(x=rank, y=relative_abundance)) +  # set x and y ax
 
 p2021  # View the plot.
 ```
-
-![image](https://github.com/darahubert/rank-abundance-tutorial/blob/78afb1342f48dc4693b5d99b75b50b53ce837c75/outputs/2021%20-%20no%20data%20points.png)
+<p align="center" width="100%">
+    <img width="999" alt="Screenshot 2021-12-07 at 16 55 48" src="https://user-images.githubusercontent.com/91272463/145213377-1312ef54-7e0d-4efa-bd94-8ffca1bf30b7.png">
+</p>
 
 ```r 
 # Add data labels 
 p2021 + geom_text(aes(label=species), size = 3). # add species labels to data points
 ```
-
-	 ![image](https://github.com/EdDataScienceEES/tutorial-darahubert/blob/be1c38202ced1efdf20082f22d119327b5f919b8/outputs%20/2021%20-%20bad%20data%20labels.png)
+<p align="center" width="100%">
+    <img width="999" alt="Screenshot 2021-12-07 at 16 55 48" src="https://user-images.githubusercontent.com/91272463/145213836-1856c2aa-3f57-492a-a6e5-f84c7e0391ce.png">
+</p>
 
 That's not very clear. We can use the `geom_text_repel` in the `ggrepel` package to make sure the data labels don't overlap. 
 
@@ -222,8 +229,9 @@ That's not very clear. We can use the `geom_text_repel` in the `ggrepel` package
 
 # Including the plot code in () means the plot is automatically shown in the plot window. 
 ```
-
-![image](https://github.com/darahubert/rank-abundance-tutorial/blob/78afb1342f48dc4693b5d99b75b50b53ce837c75/outputs/2021%20-%20with%20data%20labels.png)
+<p align="center" width="100%">
+    <img width="999" alt="Screenshot 2021-12-07 at 16 55 48" src="https://user-images.githubusercontent.com/91272463/145213920-ff1bf4c7-bd2d-4e39-abd5-14722ce67547.png">
+</p>
 
 ----
 Now we can plot the Rank Abundance Diagram for 1981. 
@@ -242,9 +250,8 @@ Now we can plot the Rank Abundance Diagram for 1981.
           legend.position = "top",
           legend.background = element_rect(colour="black"))) 
 ```
-
 <p align="center" width="100%">
-    <img width="800" alt="Screenshot 2021-12-07 at 16 55 48" src="https://github.com/darahubert/rank-abundance-tutorial/blob/78afb1342f48dc4693b5d99b75b50b53ce837c75/outputs/1981%20plot.png">
+    <img width="999" alt="Screenshot 2021-12-07 at 16 55 48" src="https://user-images.githubusercontent.com/91272463/145214150-9b03f5a2-075e-467d-b250-0562ef1aa8cb.png">
 </p>
 
 #### Now we have our two plots `p2021_labels` and `p1981`, we can format them and make a panel. 
@@ -266,8 +273,11 @@ panel <- grid.arrange(p1981_final,p2021_final,ncol=1, top = "Tree Rank Abundance
 ggsave(panel,filename = "Tree Rank Abundance Diagrams.jpg")
 
 ```
-![image](https://github.com/darahubert/rank-abundance-tutorial/blob/78afb1342f48dc4693b5d99b75b50b53ce837c75/outputs/Tree%20Rank%20Abundance%20Diagrams%20Final.jpg)
 
+<p align="center" width="100%">
+    <img width="999" alt="Screenshot 2021-12-07 at 16 55 48" src="https://user-images.githubusercontent.com/91272463/145214274-0d7d5961-e0fb-4e52-ba30-2ad40b19be1a.png">
+</p>
+				   
 We have our final output! 
 
 Obviously this is a fake dataset, but we can see that the community of tree species has changed since between 1981-2021. The relative abundance of species is more even in 2021 and we can compare how the different species have declined/increased in relative abundance between the communities over time. 
