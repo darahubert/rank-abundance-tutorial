@@ -184,12 +184,7 @@ Great! Now we have our data to plot. Let's move on to data visualisation.
 <a name="data_vis"></a> 
 
 ## 4. Data Visualisation
-	 
-<p align="center" width="100%">
-    <img width="999" alt="Screenshot 2021-12-07 at 16 55 48" src="https://user-images.githubusercontent.com/91272463/145196680-a938c27e-6446-46eb-9655-e244c7b32785.png"
-</p>
 
-----
 We want to show the relative abundance of each species, plotted against the rank of each species for both 1981 and 2021 and connect the data points.
 We will plot a connected scatterplot using `ggplot2`. This uses commands `geom_point` to plot the data points and `geom_line` to connect them. There is so much more you can do with `ggplot2` so if you want to find out more about data visualisation be sure to have a look at <a href="https://ourcodingclub.github.io/tutorials/data-vis-2/" target="_blank">this data visualisation tutorial</a> 
 
