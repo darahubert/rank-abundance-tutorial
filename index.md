@@ -184,7 +184,7 @@ Great! Now we have our data to plot. Let's move on to data visualisation.
 <a name="data_vis"></a> 
 ## 4. Data Visualisation
 
-<p align="center" width="100%">
+<p align="center" width="80%">
     <img width="500" alt="Screenshot 2021-12-08 at 10 56 06" src="https://user-images.githubusercontent.com/91272463/145196680-a938c27e-6446-46eb-9655-e244c7b32785.png"
 
 ----
@@ -210,7 +210,6 @@ p2021  # View the plot.
 ```
 
 ![image](https://github.com/EdDataScienceEES/tutorial-darahubert/blob/a1f47a9b332729ba42ebfa8305557e283bf08198/outputs%20/2021%20-%20no%20data%20points.png)
-
 
 To make the plot clearer, we can add data labels. 
 
