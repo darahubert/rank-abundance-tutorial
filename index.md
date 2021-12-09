@@ -123,7 +123,7 @@ trees_tidy <- select(trees_messy, -date, -phylum) %>%  # delete unwanted column 
 colnames(trees_tidy) <- c("year", "species", "population") # change column names
 head(trees_tidy)  # Check changes have been made
 ```
-We have used a pipe `%>%` to pass the function `na.omit`  through dataset on the left, `trees_messy`. It's a handy command and you can find more about it <a href="https://ourcodingclub.github.io/tutorials/data-manip-efficient/" target="_blank">in this tutorial</a>.
+We have used a pipe `%>%` to pass the function `na.omit`  through dataset on the left, `trees_messy`. It's a handy command that makes code more efficient. You can find more about pipes <a href="https://ourcodingclub.github.io/tutorials/data-manip-efficient/" target="_blank">in this tutorial</a>.
 
 
 Great! Now we want to split our dataset by year. To do this we are going to use the `filter()` command and make a new data frame object `<-` for each year.
