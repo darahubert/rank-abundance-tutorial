@@ -2,6 +2,8 @@
     <img width="999" alt="Screenshot 2021-12-07 at 16 55 48" src="https://user-images.githubusercontent.com/91272463/145072358-121331ed-6119-4218-8da2-8f3652814694.png">
 </p>
 
+###### _Link for tutorial - https://darahubert.github.io/rank-abundance-tutorial/_
+
 # Tutorial Aims
 1.[Introducing the Rank Abundance Diagram](#rank_abundance)
 
@@ -39,7 +41,7 @@ Open `RStudio` and create a new script by clicking on `File/ New File/ R Script`
 setwd("your_filepath")  # enter your own file path here 
 getwd() # run this to check that you have set your working directory correctly.
 ```
-To run the code, highlight the line and press `Command`and `Enter` on a Mac or `Ctrl` and `R` on a Windows PC. You can also highlight the code and click the run icon in the top right hand corner.
+To run the code, highlight the line and press `Ctrl` and `R` (Windows PC) or `Command`and `Enter` (Mac). You can also highlight the code and click the run icon in the top right hand corner.
 
 <p align="center" width="100%">
     <img width="999" alt="Screenshot 2021-12-07 at 16 55 48" src="https://user-images.githubusercontent.com/91272463/145191556-66c0a807-ca09-4c40-a2f4-0216dfee9bb5.png">
